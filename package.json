@@ -9,7 +9,7 @@
     "start": "node server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "postinstall": "npm run buildserver"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "vue": "^2.5.2",
